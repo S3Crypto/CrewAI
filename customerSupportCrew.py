@@ -3,9 +3,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 from crewai import Agent, Task, Crew
-from crewai_tools import SerperDevTool, \
-                         ScrapeWebsiteTool, \
-                         WebsiteSearchTool
+from crewai_tools import ScrapeWebsiteTool
 
 import os
 os.environ["OPENAI_API_KEY"] = 'x'
